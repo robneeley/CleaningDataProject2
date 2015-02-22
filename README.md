@@ -8,6 +8,9 @@ The R script is to be placed inside the root of the folder containing the data. 
 
 The data for the test and training sets have been combined by appending the one data set to the other in row form.  This means that the table is long as opposed to wide and contains 180 records (30 users * 6 activities).
 
+## Code Book
+The original data and data descriptions can be found at this link http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .  The original data has been modified to output the mean value for all variables defined below in the Data Column section of this document excluding the activity and subject values.  The activity column is comprised of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).  The subject values range from 1-30 identifying each subject individually.  All other values in the table are calculated mean values for the designated column.  Each row consists of a value for all variables for each activity by each user.  There is exactly one row for the activity and subject.
+
 ## Data Columns
 The following are the list of variables contained in the tidy dataset.  
 
